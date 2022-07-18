@@ -20,10 +20,19 @@ Over the last few months we've [AI4Bharat](https://ai4bharat.org/) read many pap
 - Datasets
 - Evaluation Metrics
 
+## Why use or contribute to this project?
+
+- The primary goal for me is it to help myself, having good list of papers and their summaries in one place will make my life easier when writing papers, theis etc.
+- Many websites like [paperswithcode](https://paperswithcode.com/), [connectedpapers](https://www.connectedpapers.com/) already provide some of these functionalities. But the reason why I want to do this is to take ownership of the project and to make it more open. 
+- I want to make it flexible enough to add my own features and not complain about these sites not having them. And this will not be just a static list of topics/papers.
+- We will also be having regular reading group sessions to discuss the topics and will include the slides, notes and video recordsings to make this more richer.
+- I would like researchers to take ownership of topic(s) and personalise the list based on their learnings (so far!).
+- PS: The website is still under construction. (i) I have plans to ackowledge the contribution of the community members, (ii) Add a twitter bot to notify about new papers (iii) Make the GUI better.
+
 
 ## Contributing
 
-While the above topics are something that I'm personally interested in, I'm also interested in other topics that are not directly related to the above. I'm open to new contributions from fellow lerners on new topics below (but not limited to).
+While the above topics are something that I'm work on, I'm also interested in other topics that are not directly related to the above. I'm open to new contributions from fellow lerners on new topics below (but not limited to).
 
 - Bias in NLP
 - Natural Language Generation
