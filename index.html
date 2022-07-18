@@ -25,7 +25,19 @@
                         href="https://github.com/sumanthd17/paper-tracker/tree/main/data">here
                         on GitHub</a>.</p>
 
-                <div id="table-container"></div>
+                <ul class="nav nav-pills">
+                    <li class="nav-item"><a class="nav-link active" data-toggle="pill" href="#pretraining">NLP Pretraining</a></li>
+                    <li class="nav-item"><a class="nav-link" data-toggle="pill" href="#pe">Positional Embeddings</a></li>
+                    <li class="nav-item"><a class="nav-link" data-toggle="pill" href="#nmt">Machine Translation</a></li>
+                  </ul>
+                  
+                <div class="tab-content">
+                    <div id="pretraining" class="tab-pane fade show active"></div>
+                    <div id="pe" class="tab-pane fade"></div>
+                    <div id="nmt" class="tab-pane fade"></div>
+                </div>
+
+
             </div>
         </main>
         <footer class="row">
@@ -53,7 +65,57 @@
 
         CsvToHtmlTable.init({
             csv_path: "data/nlp-pretraining.csv",
-            element: "table-container",
+            element: "pretraining",
+            allow_download: true,
+            csv_options: {
+                separator: ",",
+                delimiter: '"'
+            },
+            datatables_options: {
+                paging: false
+            },
+            custom_formatting: [
+                [2, format_link],
+                [4, format_link]
+            ]
+        });
+    </script>
+
+    <script>
+        function format_link(link) {
+            if (link)
+                return "<a href='" + link + "' target='_blank'>" + link + "</a>";
+            else return "";
+        }
+
+        CsvToHtmlTable.init({
+            csv_path: "data/pe.csv",
+            element: "pe",
+            allow_download: true,
+            csv_options: {
+                separator: ",",
+                delimiter: '"'
+            },
+            datatables_options: {
+                paging: false
+            },
+            custom_formatting: [
+                [2, format_link],
+                [4, format_link]
+            ]
+        });
+    </script>
+
+    <script>
+        function format_link(link) {
+            if (link)
+                return "<a href='" + link + "' target='_blank'>" + link + "</a>";
+            else return "";
+        }
+
+        CsvToHtmlTable.init({
+            csv_path: "data/nmt.csv",
+            element: "nmt",
             allow_download: true,
             csv_options: {
                 separator: ",",

@@ -1,0 +1,16 @@
+Name,Year,Link,Summary,Resources,Authors
+Google’s Multilingual Neural Machine Translation System: Enabling Zero-Shot Translation,TACL 2017,https://aclanthology.org/Q17-1024/,,,
+Scaling Neural Machine Translation,ACL 2018,https://arxiv.org/abs/1806.00187,"Sidenote: The paper is rife with training tricks so it is also practically very useful to do efficient training. It goes into some minor details of fp16 ttraining, gradient accumulate, how to tune bs and lr in tandem etc
+Some takeways based on their en-ge WMT14 task:
+1) . Training with large batches is less data-efficient, but can be
+parallelized and loss coverges much faster
+2) Fp16 training gives 65% faster
+3) They find training with large batches and by
+increasing the learning rate we can further reduce
+training time by 40% on a single machine
+4) With above tricks and some more like grad accumulation, they speed up training by 5X on a single gpu
+Towards the end of the paper, they have some notes on how data should be batched (eg by max-tokens-per-gpu or other methods) and discuss pros and conds",,"Legend himself: Myle Ott, Sergey Edunov, David Grangier, Michael Auli"
+Attention Is All You Need,NIPS 2017,https://arxiv.org/abs/1706.03762,,https://github.com/tensorflow/tensor2tensor,"Ashish Vaswani, Noam Shazeer, Niki Parmar, Jakob Uszkoreit, Llion Jones, Aidan N. Gomez, Lukasz Kaiser, Illia Polosukhin"
+Massively Multilingual Neural Machine Translation in the Wild: Findings and Challenges,Jul 2019,https://arxiv.org/abs/1907.05019,,,"Naveen Arivazhagan, Ankur Bapna, Orhan Firat, Dmitry Lepikhin, Melvin Johnson, Maxim Krikun, Mia Xu Chen, Yuan Cao, George Foster, Colin Cherry, Wolfgang Macherey, Zhifeng Chen, Yonghui Wu"
+A Comprehensive Survey of Multilingual Neural Machine Translation,Jan 2020,https://arxiv.org/abs/2001.01115,,,"Raj Dabre, Chenhui Chu, Anoop Kunchukuttan"
+Beyond English-Centric Multilingual Machine Translation,Oct 2020,https://arxiv.org/abs/2010.11125,,,"Angela Fan, Shruti Bhosale, Holger Schwenk, Zhiyi Ma, Ahmed El-Kishky, Siddharth Goyal, Mandeep Baines, Onur Celebi, Guillaume Wenzek, Vishrav Chaudhary, Naman Goyal, Tom Birch, Vitaliy Liptchinsky, Sergey Edunov, Edouard Grave, Michael Auli, Armand Joulin"

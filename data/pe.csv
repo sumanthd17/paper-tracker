@@ -1,0 +1,12 @@
+Name,Year,Link,Summary,Resources,Authors
+Self-Attention with Relative Position Representations,NAACL 2018,https://aclanthology.org/N18-2074/,,,"Peter Shaw, Jakob Uszkoreit, Ashish Vaswani"
+Addressing word-order Divergence in Multilingual Neural Machine Translation for extremely Low Resource Languages,NAACL 2019,https://aclanthology.org/N19-1387/,,,"Rudra Murthy, Anoop Kunchukuttan, Pushpak Bhattacharyya"
+On the Cross-lingual Transferability of Monolingual Representations,ACL 2020,https://aclanthology.org/2020.acl-main.421/,,,"Mikel Artetxe, Sebastian Ruder, Dani Yogatama"
+Self-Attention with Cross-Lingual Position Representation,ACL 2020,https://aclanthology.org/2020.acl-main.153/,,,"Liang Ding, Longyue Wang, Dacheng Tao"
+What Do Position Embeddings Learn? An Empirical Study of Pre-Trained Language Model Positional Encoding,EMNLP 2021,https://aclanthology.org/2020.emnlp-main.555/,,,"Yu-An Wang, Yun-Nung Chen"
+Improving Zero-Shot Translation by Disentangling Positional Information,ACL 2021,https://arxiv.org/abs/2012.15127,,,"Danni Liu, Jan Niehues, James Cross, Francisco Guzmán, Xian Li"
+Position Information in Transformers: An Overview,Feb 2021,https://arxiv.org/abs/2102.11090,,,"Philipp Dufter, Martin Schmitt, Hinrich Schütze"
+"Train Short, Test Long: Attention with Linear Biases Enables Input Length Extrapolation",Aug 2021,https://arxiv.org/abs/2108.12409,,https://github.com/ofirpress/attention_with_linear_biases,"Ofir Press, Noah A. Smith, Mike Lewis"
+A Simple and Effective Positional Encoding for Transformers,Apr 2021,https://arxiv.org/abs/2104.086988,,,"Pu-Chin Chen, Henry Tsai, Srinadh Bhojanapalli, Hyung Won Chung, Yin-Wen Chang, Chun-Sung Ferng"
+On the Importance of Word Order Information in Cross-lingual Sequence Labeling,AAAI 2021,https://arxiv.org/abs/2001.11164,,,"Zihan Liu, Genta Indra Winata, Samuel Cahyawijaya, Andrea Madotto, Zhaojiang Lin, Pascale Fung"
+Rethinking Positional Encoding in Language Pre-training,ICLR 2021,https://arxiv.org/abs/2006.15595,TUPE,https://github.com/guolinke/TUPE,"Guolin Ke, Di He, Tie-Yan Liu"
