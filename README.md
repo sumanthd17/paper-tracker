@@ -23,7 +23,7 @@ Over the last few months we've [AI4Bharat](https://ai4bharat.org/) read many pap
 ## Why use or contribute to this project?
 
 - The primary goal for me is it to help myself, having good list of papers and their summaries in one place will make my life easier when writing papers, theis etc.
-- Many websites like [paperswithcode](https://paperswithcode.com/), [connectedpapers](https://www.connectedpapers.com/) already provide some of these functionalities. But the reason why I want to do this is to take ownership of the project and to make it more open. 
+- Many websites/tools like [paperswithcode](https://paperswithcode.com/), [connectedpapers](https://www.connectedpapers.com/), [mendeley](http://mendeley.com) already provide some of these functionalities. But the reason why I want to do this is to take ownership of the project and to make it more open. 
 - I want to make it flexible enough to add my own features and not complain about these sites not having them. And this will not be just a static list of topics/papers.
 - We will also be having regular reading group sessions to discuss the topics and will include the slides, notes and video recordsings to make this more richer.
 - I would like researchers to take ownership of topic(s) and personalise the list based on their learnings (so far!).
