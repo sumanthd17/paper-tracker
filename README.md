@@ -27,7 +27,13 @@ Over the last few months we've [AI4Bharat](https://ai4bharat.org/) read many pap
 - I want to make it flexible enough to add my own features and not complain about these sites not having them. And this will not be just a static list of topics/papers.
 - We will also be having regular reading group sessions to discuss the topics and will include the slides, notes and video recordsings to make this more richer.
 - I would like researchers to take ownership of topic(s) and personalise the list based on their learnings (so far!).
-- PS: The website is still under construction. (i) I have plans to ackowledge the contribution of the community members, (ii) Add a twitter bot to notify about new papers (iii) Make the GUI better.
+
+## ToDos
+- Note: The website is still under construction.
+- Automate filling metadata fields by creating custom scrapers for ArXiv, ACL Anthology, IEEE, etc.
+- I have plans to ackowledge the contribution of the community members.
+- Add a twitter bot to notify about new papers.
+- Make the GUI better.
 
 
 ## Contributing
